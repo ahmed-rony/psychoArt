@@ -1,0 +1,16 @@
+.brands{
+    padding-bottom: 100px;
+
+    .brand-slider{
+        .item{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                margin: 0 auto;
+                width: fit-content;
+            }
+        }
+    }
+}
