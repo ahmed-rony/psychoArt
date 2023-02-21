@@ -1,0 +1,38 @@
+.faq{
+    padding-bottom: 100px;
+
+    .content{
+        display: flex;
+        flex-direction: column;
+
+        .item{
+            background: transparent;
+            box-shadow: none;
+            .question{
+                display: flex;
+                align-items: center;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+                
+                h4{
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: rgba(255, 255, 255, 0.5);
+                }
+                .accordion-icon{
+                    color: rgba(255, 255, 255, 0.5);
+                }
+            }
+            
+            .details{
+                background: rgba(255, 255, 255, 0.1);
+                
+                p{
+                    font-size: 15px;
+                    font-weight: 500;
+                    color: rgba(255, 255, 255, 0.5);
+                }
+            }
+
+        }
+    }
+}

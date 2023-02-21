@@ -13,11 +13,11 @@ const Brands = () => {
         infinite: true,
         autoplay: true,
         autoplaySpeed: 4000,
-        infinite: true,
         speed: 1800,
         slidesToShow: 3,
         slidesToScroll: 1,
       };
+
     return (
         <div className='brands'>
             <div className="container">
