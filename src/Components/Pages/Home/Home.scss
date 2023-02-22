@@ -1,3 +1,9 @@
+@import '../../../style.scss';
+
 .home {
     background: linear-gradient(90deg, rgba(152, 77, 56, 1) 0%, rgba(24, 30, 65, 1) 50%);
+
+    @include mobile {
+        background: rgba(24, 30, 65, 1);
+    }
 }

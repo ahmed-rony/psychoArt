@@ -1,13 +1,27 @@
-.brands{
+@import '../../../style.scss';
+
+.brands {
     padding-bottom: 100px;
 
-    .brand-slider{
-        .item{
+    @include mobile {
+        padding-bottom: 80px;
+    }
+
+    .brand-slider {
+        @include tablet {
+            margin-left: -50px;
+        }
+        @include mobile {
+            margin-left: -10px;
+        }
+
+        .item {
             width: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
-            img{
+
+            img {
                 margin: 0 auto;
                 width: fit-content;
             }

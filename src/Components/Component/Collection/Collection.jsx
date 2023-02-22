@@ -40,10 +40,10 @@ const Collection = () => {
                 </Box>
                 <TabPanel value={tab} index={0}>
                     <div className="container p-0">
-                        <div className="row">
+                        <div className="row gx-3">
                             {
                                 artData.map((i) => (
-                                    <div className="col-md-4">
+                                    <div className="col-md-4 col-6">
                                         <div className="item">
                                             <div className="card-img">
                                                 <img src={i.imgUrl} alt="" />
@@ -68,10 +68,10 @@ const Collection = () => {
                 </TabPanel>
                 <TabPanel value={tab} index={1}>
                 <div className="container p-0">
-                        <div className="row">
+                        <div className="row gx-3">
                             {
                                 sportData.map((i) => (
-                                    <div className="col-md-4">
+                                    <div className="col-md-4 col-6">
                                         <div className="item">
                                             <div className="card-img">
                                                 <img src={i.imgUrl} alt="" />
@@ -96,10 +96,10 @@ const Collection = () => {
                 </TabPanel>
                 <TabPanel value={tab} index={2}>
                     <div className="container p-0">
-                        <div className="row">
+                        <div className="row gx-3">
                             {
                                 photographyData.map((i) => (
-                                    <div className="col-md-4">
+                                    <div className="col-md-4 col-6">
                                         <div className="item">
                                             <div className="card-img">
                                                 <img src={i.imgUrl} alt="" />
@@ -124,10 +124,10 @@ const Collection = () => {
                 </TabPanel>
                 <TabPanel value={tab} index={3}>
                     <div className="container p-0">
-                        <div className="row">
+                        <div className="row gx-3">
                             {
                                 patternData.map((i) => (
-                                    <div className="col-md-4">
+                                    <div className="col-md-4 col-6">
                                         <div className="item">
                                             <div className="card-img">
                                                 <img src={i.imgUrl} alt="" />

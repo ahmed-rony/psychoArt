@@ -31,181 +31,178 @@ export const bannerRatio = [
         quantity: 99,
     },
 ];
-
-export const featured =[
+export const featured = [
     {
-        id:1,
+        id: 1,
         user: 'Johny',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img01,
     },
     {
-        id:2,
+        id: 2,
         user: 'Moon',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img02,
     },
     {
-        id:1,
+        id: 1,
         user: 'Josephin',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img03,
     }
-]
-
-export const creatorData =[
+];
+export const creatorData = [
     {
-        id:1,
+        id: 1,
         user: 'Johny',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         profile: profile01,
         cover: cover01,
     },
     {
-        id:2,
+        id: 2,
         user: 'Moon',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         profile: profile02,
         cover: cover02,
     },
     {
-        id:1,
+        id: 1,
         user: 'Josephin',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         profile: profile03,
         cover: cover03,
     }
-]
-
-export const artData =[
+];
+export const artData = [
     {
-        id:1,
+        id: 1,
         user: 'Johny',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img01,
     },
     {
-        id:2,
+        id: 2,
         user: 'Moon',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img02,
     },
     {
-        id:1,
+        id: 1,
         user: 'Josephin',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img03,
     },
     {
-        id:4,
+        id: 4,
         user: 'Johny',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img04,
     },
     {
-        id:5,
+        id: 5,
         user: 'Moon',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img05,
     },
     {
-        id:6,
+        id: 6,
         user: 'Josephin',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img06,
     },
     {
-        id:7,
+        id: 7,
         user: 'Johny',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img07,
     },
     {
-        id:8,
+        id: 8,
         user: 'Moon',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img08,
     },
     {
-        id:9,
+        id: 9,
         user: 'Josephin',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img09,
     }
-]
-export const sportData =[
+];
+export const sportData = [
     {
-        id:4,
+        id: 4,
         user: 'Johny',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img04,
     },
     {
-        id:8,
+        id: 8,
         user: 'Moon',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img08,
     },
     {
-        id:5,
+        id: 5,
         user: 'Moon',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img05,
     },
     {
-        id:1,
+        id: 1,
         user: 'Josephin',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img03,
     },
     {
-        id:6,
+        id: 6,
         user: 'Josephin',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img06,
     },
     {
-        id:2,
+        id: 2,
         user: 'Moon',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img02,
     },
     {
-        id:7,
+        id: 7,
         user: 'Johny',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img07,
     },
     {
-        id:9,
+        id: 9,
         user: 'Josephin',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img09,
     }
-]
-export const photographyData =[
+];
+export const photographyData = [
     {
-        id:8,
+        id: 8,
         user: 'Moon',
         title: 'Yellow Painting',
         bid: 0.005,
@@ -213,110 +210,110 @@ export const photographyData =[
     },
 
     {
-        id:4,
+        id: 4,
         user: 'Johny',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img04,
     },
     {
-        id:9,
+        id: 9,
         user: 'Josephin',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img09,
     },
     {
-        id:1,
+        id: 1,
         user: 'Josephin',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img03,
     },
     {
-        id:5,
+        id: 5,
         user: 'Moon',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img05,
     },
     {
-        id:6,
+        id: 6,
         user: 'Josephin',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img06,
     },
     {
-        id:2,
+        id: 2,
         user: 'Moon',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img02,
     },
     {
-        id:7,
+        id: 7,
         user: 'Johny',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img07,
     },
-]
-export const patternData =[
-        {
-            id:4,
-            user: 'Johny',
-            title: 'Yellow Painting',
-            bid: 0.005,
-            imgUrl: img04,
-        },
+];
+export const patternData = [
     {
-        id:8,
+        id: 4,
+        user: 'Johny',
+        title: 'Yellow Painting',
+        bid: 0.005,
+        imgUrl: img04,
+    },
+    {
+        id: 8,
         user: 'Moon',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img08,
     },
     {
-        id:9,
+        id: 9,
         user: 'Josephin',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img09,
     },
     {
-        id:1,
+        id: 1,
         user: 'Josephin',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img03,
     },
     {
-        id:5,
+        id: 5,
         user: 'Moon',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img05,
     },
     {
-        id:6,
+        id: 6,
         user: 'Josephin',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img06,
     },
     {
-        id:2,
+        id: 2,
         user: 'Moon',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img02,
     },
     {
-        id:7,
+        id: 7,
         user: 'Johny',
         title: 'Yellow Painting',
         bid: 0.005,
         imgUrl: img07,
     },
-]
+];

@@ -24,7 +24,7 @@ const Banner = () => {
                                     <button className="brand-btn">Sell NFT</button>
                                 </div>
                             </div>
-                            <div className="ration-details">
+                            <div className="ratio-details">
                                 {
                                     bannerRatio.map((i) => (
                                         <div key={i.id} className="item">
@@ -36,17 +36,17 @@ const Banner = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-sm-12">
                         <div className="gallery-content">
                             <div className="row gx-3">
-                                <div className="col-md-4">
+                                <div className="col-md-4 col-6">
                                     <div className="items">
                                         <div className="item"><img src={img15} alt="" /></div>
                                         <div className="item"><img src={img17} alt="" /></div>
                                         <div className="item"><img src={img18} alt="" /></div>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-md-4 col-6">
                                     <div className="items">
                                         <div className="item"><img src={img16} alt="" /></div>
                                         <div className="item"><img src={img19} alt="" /></div>
@@ -55,7 +55,7 @@ const Banner = () => {
                                 </div>
                                 <div className="col-md-4">
                                     <div className="items">
-                                        <div className="item"><img src={img21} alt="" /></div>
+                                        <div className="item last-pic"><img src={img21} alt="" /></div>
                                     </div>
                                 </div>
                             </div>

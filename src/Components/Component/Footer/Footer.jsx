@@ -8,13 +8,13 @@ const Footer = () => {
             <div className="content">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4">
+                        <div className="col-md-4 col-12">
                             <div className="item">
                                 <h4>Psycho<span>Art</span></h4>
                                 <p>The best NFT marketplace website in the world and feel your experience in selling or buy our work</p>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 col-6">
                             <div className="item">
                                 <h4>About</h4>
                                 <ul>
@@ -25,7 +25,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 col-6">
                             <div className="item">
                                 <h4>Company</h4>
                                 <ul>
@@ -36,7 +36,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-2 col-6">
                             <div className="item last-item">
                                 <h4>Contact</h4>
                                 <ul>

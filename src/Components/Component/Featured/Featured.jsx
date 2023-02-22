@@ -10,10 +10,10 @@ const Featured = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit.</p>
             </div>
             <div className="container">
-                <div className="row">
+                <div className="row gx-3">
                     {
-                        featured.map((i)=>(
-                            <div className="col-md-4">
+                        featured.map((i) => (
+                            <div className="col-md-4 col-6">
                                 <div className="item">
                                     <div className="card-img">
                                         <img src={i.imgUrl} alt="" />

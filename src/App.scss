@@ -1,3 +1,5 @@
+@import './style.scss';
+
 .app {
     .brand-btn {
         border: none;
@@ -16,10 +18,21 @@
         -ms-transition: all ease 0.5s;
         -o-transition: all ease 0.5s;
 
+        @include tablet {
+            padding: 5px 15px;
+            font-size: 15px;
+        }
+
+        @include mobile {
+            padding: 5px 15px;
+            font-size: 15px;
+        }
+
         &:hover {
             background-position: right center;
         }
     }
+
     .header {
         display: flex;
         flex-direction: column;
@@ -31,6 +44,14 @@
             font-size: 35px;
             font-weight: 700;
             color: #fff;
+
+            @include tablet {
+                font-size: 30px;
+            }
+
+            @include mobile {
+                font-size: 30px;
+            }
         }
 
         p {
@@ -38,6 +59,14 @@
             font-weight: 500;
             color: rgba(255, 255, 255, 0.5);
             text-align: center;
+
+            @include tablet {
+                font-size: 16px;
+            }
+
+            @include mobile {
+                font-size: 16px;
+            }
         }
     }
 }

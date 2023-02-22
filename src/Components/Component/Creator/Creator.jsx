@@ -10,10 +10,10 @@ const Creator = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit.</p>
             </div>
             <div className="container">
-                <div className="row">
+                <div className="row gx-3">
                     {
                         creatorData.map((i) => (
-                            <div key={i.id} className="col-md-4">
+                            <div key={i.id} className="col-md-4 col-6">
                                 <div className="item">
                                     <div className="img-sec">
                                         <img src={i.cover} alt="" />

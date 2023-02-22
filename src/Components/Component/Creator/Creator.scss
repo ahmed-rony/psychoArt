@@ -1,5 +1,15 @@
+@import '../../../style.scss';
+
 .creator {
     padding-bottom: 100px;
+
+    @include tablet {
+        padding-bottom: 80px;
+    }
+
+    @include mobile {
+        padding-bottom: 80px;
+    }
 
     .item {
         width: 100%;
@@ -10,6 +20,7 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         background: rgba(255, 255, 255, 0.1);
+        margin-bottom: 18px;
 
         &:hover {
             transform: translateY(-5px);
@@ -17,12 +28,20 @@
             -moz-transform: translateY(-5px);
             -ms-transform: translateY(-5px);
             -o-transform: translateY(-5px);
-}
+        }
 
         .img-sec {
             width: 100%;
             height: 200px;
             position: relative;
+
+            @include tablet {
+                height: 150px;
+            }
+
+            @include mobile {
+                height: 120px;
+            }
 
             img {
                 width: 100%;
@@ -46,6 +65,18 @@
                 -moz-transform: translateX(-50%);
                 -ms-transform: translateX(-50%);
                 -o-transform: translateX(-50%);
+
+                @include tablet {
+                    width: 80px;
+                    height: 80px;
+                    bottom: -40px;
+                }
+
+                @include mobile {
+                    width: 70px;
+                    height: 70px;
+                    bottom: -35px;
+                }
             }
         }
 
@@ -56,10 +87,26 @@
             gap: 10px;
             padding: 65px 20px 20px;
 
+            @include tablet {
+                padding: 45px 15px 15px;
+            }
+
+            @include mobile {
+                padding: 45px 10px 10px;
+            }
+
             h4 {
                 font-size: 20px;
                 font-weight: 700;
                 color: #fff;
+
+                @include tablet {
+                    font-size: 18px;
+                }
+
+                @include mobile {
+                    font-size: 18px;
+                }
             }
 
             p {
@@ -67,12 +114,21 @@
                 font-weight: 500;
                 color: rgba(255, 255, 255, 0.5);
                 padding-bottom: 10px;
+
+                @include tablet {
+                    font-size: 14px;
+                }
+
+                @include mobile {
+                    font-size: 14px;
+                }
             }
         }
+
         transition: all ease 0.4s;
         -webkit-transition: all ease 0.4s;
         -moz-transition: all ease 0.4s;
         -ms-transition: all ease 0.4s;
         -o-transition: all ease 0.4s;
-}
+    }
 }
