@@ -67,7 +67,7 @@ const Collection = () => {
                     </div>
                 </TabPanel>
                 <TabPanel value={tab} index={1}>
-                <div className="container p-0">
+                    <div className="container p-0">
                         <div className="row gx-3">
                             {
                                 sportData.map((i) => (

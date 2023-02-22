@@ -13,6 +13,7 @@
 
     .tabs {
         margin-bottom: 30px;
+        width: 100%;
 
         @include mobile {
             overflow: hidden;
@@ -23,42 +24,33 @@
             -o-border-radius: 5px;
         }
 
-        .css-heg063-MuiTabs-flexContainer {
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
+        .tab {
+            margin-right: 15px;
+            width: 24%;
+            background: rgba(255, 255, 255, 0.1) !important;
+            padding: 2px !important;
+            font-size: 18px !important;
+            font-weight: 500 !important;
+            color: #fff !important;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
 
-            @include mobile {
-                gap: 0;
+            @include tablet {
+                font-size: 16px !important;
+                padding: 0 !important;
             }
 
-            .tab {
-                flex: 1;
-                background: rgba(255, 255, 255, 0.1);
-                padding: 2px;
-                font-size: 18px !important;
-                font-weight: 500 !important;
-                color: #fff;
-                border-radius: 10px;
-                -webkit-border-radius: 10px;
-                -moz-border-radius: 10px;
-                -ms-border-radius: 10px;
-                -o-border-radius: 10px;
-
-                @include tablet {
-                    font-size: 16px !important;
-                    padding: 0;
-                }
-
-                @include mobile {
-                    font-size: 10px !important;
-                    padding: 0;
-                    border-radius: 0;
-                    -webkit-border-radius: 0;
-                    -moz-border-radius: 0;
-                    -ms-border-radius: 0;
-                    -o-border-radius: 0;
-                }
+            @include mobile {
+                font-size: 10px !important;
+                padding: 0 !important;
+                border-radius: 0;
+                -webkit-border-radius: 0;
+                -moz-border-radius: 0;
+                -ms-border-radius: 0;
+                -o-border-radius: 0;
             }
         }
     }
@@ -188,6 +180,7 @@
                         font-size: 16px;
                         font-weight: 500;
                     }
+
                     @include mobile {
                         font-size: 16px;
                         font-weight: 500;
